@@ -1,0 +1,23 @@
+/* Abaixo segue como zerar margin. paddin*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+legend{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+label{
+    background-color: #ad9d9d;
+    
+}
+
+input{
+    margin-bottom: 10px;
+    margin-top: 3px
+}
+
