@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,27 +7,23 @@
     <title>AcPG</title>
 </head>
 <header>
-    <form action="aguardando.php" method="post" name="formulario_login" class="formLogin">
-        <fieldset>
-            <label>
-                <legend>Colaboradores:</legend>
-                    Login: 
-                    <input type="text" name="login" placeholder="Digite seu login." required>
-            </label>
-            
-            <label>
-                    Senha: 
-                    <input type="password" name="senha_login" placeholder="Digite sua senha.">
-            </label>
-
-            <input type="submit" value="Fazer login." class="btnFazerlogin" required>
-        </fieldset>    
-    </form>    
+    
 </header>
 <body>
     Corpo do Site
+
+    <script>
+        function validarLogin(){
+            var usuario = document.getElementById('login').value;
+            var senha_usuario = document.getElementById('senha_login').value;
+            
+            if (usuario == "will" && senha_usuario == "will"){
+                alert('Sucesso');
+            } 
+        }
+    </script>
 </body>
 <footer>
-    Rodapé do site
+    Rodapé do site        
 </footer>
 </html>
