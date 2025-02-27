@@ -26,7 +26,7 @@ nav ul li a{
     padding: 10px;
     display: block;
     background-color: var(--cor-principal);
-    transition: background .3s;
+    transition: background .300s;
     text-transform: uppercase;
 }
 

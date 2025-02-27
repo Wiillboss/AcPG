@@ -4,49 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styleRegistros.css">
+    <link rel="stylesheet" href="stylePainelCentralMenu.css">
     <title>Registros</title>
 </head>
 <header>
 Cabeçario da página de Registros de Agendamentos.
 </header>
 <body>
-    <form action="" method="get">
+    <form action="" method="get" class="formAgendamentos">
         <fieldset>
-            <legend>Dados do(a) paciente</legend>
+            <fieldset>
+                <legend>Dados do(a) paciente</legend>
+                    <label>
+                        Nome do(a) Paciente.
+                        <input type="text" name="nome_paciente" id="" class="nome_Pa"  placeholder="Digite o nome do(a) paciente.">
+                    </label>
                 <label>
-                    Nome do(a) Paciente.
-                    <input type="text" name="nome_paciente" id="" class="nome_Pa"  placeholder="Digite o nome do(a) paciente.">
+                    Matricula do Paciente.
+                    <input type="number" name="matricula_paciente" id="" class="matricula_Pa" placeholder="Digite a matricula do(a) paciente">
                 </label>
-            <label>
-                Matricula do Paciente.
-                <input type="number" name="matricula_paciente" id="" class="matricula_Pa" placeholder="Digite a matricula do(a) paciente">
-            </label>    
-        </fieldset>
-
-        <fieldset>
-            <legend>Dados do(a) exame/consulta.</legend>
-                <input type="text" name="consulta_exmae" id="" placeholder="Digite o nome do(a) exame/ consulta">
-                <button>Digite novo(a) exame/consulta.</button>
-        </fieldset>
-
-        <fieldset>
-            <legend>Status do registro.</legend>
-                <select name="selecao_status" id="ID_selecao_status">
-                    <option value="" selected>Escolha uma opção.</option>
-                    <option value="Mgs_enviada">Mensagem enviada via whatsapp e aguardando retorno.</option>
-                    <option value="confirmou_WPP">Paciente confirma (via whatsapp) agendamento e recebe orientações para retida de guia.</option>
-                    <option value="confirmou_TEL">Paciente confirma (via telefone) agendamento e recebe orientações para retida de guia.</option>
-                    <option value="remarcou">Paciente solicita remarca.</option>
-                    <option value="cancelou">Paciente solicita o cancelamento e exclusão do agendamento no sistema.</option>
-                </select>
-                <button>Digite um novo Status do registro.</button>
+            </fieldset>
+            <fieldset>
+                <legend>Dados do(a) exame/consulta.</legend>
+                    <input type="text" name="consulta_exmae" id="" placeholder="Digite o nome do(a) exame/ consulta">
+                    <button>Digite novo(a) exame/consulta.</button>
+            </fieldset>
+            <fieldset>
+                <legend>Status do registro.</legend>
+                    <select name="selecao_status" id="ID_selecao_status">
+                        <option value="" selected>Escolha uma opção.</option>
+                        <option value="Mgs_enviada">Mensagem enviada via whatsapp e aguardando retorno.</option>
+                        <option value="confirmou_WPP">Paciente confirma (via whatsapp) agendamento e recebe orientações para retida de guia.</option>
+                        <option value="confirmou_TEL">Paciente confirma (via telefone) agendamento e recebe orientações para retida de guia.</option>
+                        <option value="remarcou">Paciente solicita remarca.</option>
+                        <option value="cancelou">Paciente solicita o cancelamento e exclusão do agendamento no sistema.</option>
+                    </select>
+                    <button>Digite um novo Status do registro.</button>
+            </fieldset>
+            <input type="button" value="Enviar dados">
         </fieldset>
     </form>
     <br>
-    <a href="painelCentral.html"> Painel Central.</a> <br>
-    <a href="callCenter.html">Call Center.</a> <br>
-    <a href="tfd.html">TFD.</a> <br>
-    <a href="index.html"> Tela de Login.</a>    
+    <nav>
+        <ul>
+            <li>    <a href="painelCentral.html">Painel Central</a>   </li>
+            <li>    <a href="callCenter.html">Call Center</a>  </li>
+            <li>    <a href="tfd.html">TFD</a>                 </li>
+            <li>    <a href="index.html">Login</a>             </li>
+        </ul>
+    </nav>    
 </body>
 <footer>
 Rodapé da página
