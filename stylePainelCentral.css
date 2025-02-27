@@ -1,0 +1,36 @@
+
+:root {
+    --cor-principal: rgba(119, 119, 119, 0.034);
+    --cor-secundaria: rgb(110, 199, 199);
+}
+/* Dica importante, procure sempre acessar os elementos em ordem de hierarquia como está sendo feito no nos elementos dentro do NAV*/
+nav{
+    max-width: 350px;
+    width: 100%;
+    background-color: rgb(46, 45, 45);
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li{
+    border-bottom: 1px solid var(--cor-secundaria)
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+    display: block;
+    background-color: var(--cor-principal);
+    transition: background .3s;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover{
+    background-color: var(--cor-secundaria);
+    color: black;
+}
