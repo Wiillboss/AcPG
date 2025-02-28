@@ -1,13 +1,13 @@
 
 :root {
-    --cor-principal: rgba(119, 119, 119, 0.034);
-    --cor-secundaria: rgb(110, 199, 199);
+    --cor-principal: rgba(15, 84, 211, 0.034);
+    --cor-secundaria: rgb(57, 104, 104);
 }
 /* Dica importante, procure sempre acessar os elementos em ordem de hierarquia como está sendo feito no nos elementos dentro do NAV*/
 nav{
     max-width: 350px;
     width: 100%;
-    background-color: rgb(46, 45, 45);
+    background-color: rgb(129, 166, 180);
 }
 
 nav ul{
@@ -32,5 +32,5 @@ nav ul li a{
 
 nav ul li a:hover{
     background-color: var(--cor-secundaria);
-    color: black;
+    color: rgba(226, 230, 235, 0.589);
 }
