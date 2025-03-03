@@ -1,3 +1,12 @@
+/* Sobre unidade de medidas:
+    -- "em" sua unidade é sempre baseado no FONT-ZISE do elemento PAI, aumentou o FONT-ZISE, o "em" aumento propocionamente
+    -- "rem" é baseado no primeiro elemento da estrutura, ou seja, caso deixe FONT-SIZE dentro do HMTL (no css), o testante da páginatem essa   meidca para padrão e consequentemente responsível - o "R" do "rem" significa ROOT.
+    -- "portentagem - %" tem o mesmo principio do elemento PAI.
+    -- "ex" é baseado na altura da letra "X" do tipo de FONTE que está sendo usando.
+    -- "ch" usado para FONTE MONO SPACE.
+    -- "vh - vw" - viewport height - viewport width são baseados em toda área visivel, a qual o usuário pra ver e usar.
+    -- "inherit" - herde a força a propriedade do item acima.  
+ */
 
 :root {
     --cor-principal: rgba(15, 84, 211, 0.034);
@@ -34,3 +43,4 @@ nav ul li a:hover{
     background-color: var(--cor-secundaria);
     color: rgba(226, 230, 235, 0.589);
 }
+
