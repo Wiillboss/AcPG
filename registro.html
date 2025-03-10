@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styleRegistros.css">
     <link rel="stylesheet" href="stylePainelCentralMenu.css">
+    <link rel="stylesheet" href="styleFormulario.css">
     <title>Registros</title>
 </head>
 <header>
@@ -16,17 +17,19 @@ Cabeçario da página de Registros de Agendamentos.
             <fieldset>
                 <legend>Dados do(a) paciente</legend>
                     <label>
-                        Nome do(a) Paciente.
+                        Nome do(a) Paciente:
                         <input type="text" name="nome_paciente" id="" class="nome_Pa"  placeholder="Digite o nome do(a) paciente." minlength="7" maxlength="35" required>
                     </label>
                 <label>
-                    Matricula do Paciente.
+                    Matricula do Paciente:
                     <input type="number" name="matricula_paciente" id="" class="matricula_Pa" placeholder="Digite a matricula do(a) paciente" min="2" required>
                 </label>
             </fieldset>
             <fieldset>
-                <legend>Dados do(a) exame/consulta.</legend>
-                    <input type="text" name="consulta_exmae" id="" placeholder="Digite o nome do(a) exame/ consulta" minlength="3" required>
+                <legend>Dados do(a) exame/consulta:</legend>
+                    <label for="">
+                        Exame/consulta:
+                        <input type="text" name="consulta_exmae" id="" placeholder="Digite o nome do(a) exame/ consulta" minlength="3" required></label>
                     <button>Digite novo(a) exame/consulta.</button>
             </fieldset>
             <fieldset>
@@ -41,7 +44,7 @@ Cabeçario da página de Registros de Agendamentos.
                     </select>
                     <button>Digite um novo Status do registro.</button>
             </fieldset>
-            <input type="button" value="Enviar dados">
+            <input type="button" value="Salvar" class="btn_Salvar_Registro">
         </fieldset>
     </form>
     <br>
