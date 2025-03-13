@@ -1,0 +1,12 @@
+.btn_salvar_call_center{
+    margin-top: 7px;
+    background-color: rgb(171, 186, 187);
+    cursor: pointer;
+}
+
+.btn_salvar_call_center:hover{
+    background-color: rgb(90, 101, 165);
+    transition: 0.2s;
+    color: white;
+}
+    

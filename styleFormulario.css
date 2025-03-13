@@ -30,4 +30,5 @@ form button{
 .btn_Salvar_Registro:hover{
     background-color: rgb(90, 101, 165);
     transition: 0.2s;
+    color: white;
 }
