@@ -1,3 +1,7 @@
+header{
+    text-align: center;
+}
+
 .btn_salvar_call_center{
     margin-top: 7px;
     background-color: rgb(171, 186, 187);
@@ -9,4 +13,10 @@
     transition: 0.2s;
     color: white;
 }
-    
+
+footer{
+    padding-top: 5px;
+    text-align: center;
+    background-color: cornflowerblue;
+    height: 30px;
+}

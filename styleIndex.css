@@ -5,6 +5,14 @@
     box-sizing: border-box;
 }
 
+header{
+    text-align: center;
+}
+
+.login_senha{
+    text-align: left;
+}
+
 fieldset{
     padding-left: 5px;
 
@@ -29,4 +37,11 @@ input{
 .btnFazerlogin{
     width: 100px;
     background-color: rgb(174, 191, 236);
+}
+
+footer{
+    padding-top: 5px;
+    text-align: center;
+    background-color: cornflowerblue;
+    height: 30px;
 }

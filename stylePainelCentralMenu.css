@@ -7,8 +7,11 @@
     -- "vh - vw" - viewport height - viewport width são baseados em toda área visivel, a qual o usuário pra ver e usar.
     -- "inherit" - herde a força a propriedade do item acima.  
  */
+ header{
+    text-align: center;
+}
 
-:root {
+ :root {
     --cor-principal: rgba(15, 84, 211, 0.034);
     --cor-secundaria: rgb(57, 104, 104);
 }
@@ -44,3 +47,9 @@ nav ul li a:hover{
     color: rgba(226, 230, 235, 0.589);
 }
 
+footer{
+    padding-top: 5px;
+    text-align: center;
+    background-color: cornflowerblue;
+    height: 30px;
+}

@@ -1,3 +1,11 @@
+header{
+    text-align: center;
+}
+
+.login_senha{
+    text-align: left;
+}
+
 input{
     width: 300px;
     margin-right: 100px;
@@ -9,4 +17,11 @@ input{
 
 .nome_Pa{
     width: 350px;
+}
+
+footer{
+    padding-top: 5px;
+    text-align: center;
+    background-color: cornflowerblue;
+    height: 30px;
 }
