@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styleCallCenter.css">
     <link rel="stylesheet" href="stylePainelCentralMenu.css">
+    <link rel="stylesheet" href="styleFormulario.css">
     <title>Call Center</title>
 </head>
 <header>
@@ -17,11 +18,11 @@ Cabeçario da página Call Center.
                 <legend>Dados do atendimento.</legend>
                     <label>
                         Nome:
-                        <input type="text" name="nomePa" id="ID_nome_Pa" minlength="7" maxlength="35" required>
+                        <input type="text" name="nomePa" id="ID_nome_Pa" minlength="7" maxlength="35" size="40px" required>
                     </label>
-                    <label>
+                    <label class="label_bairro">
                         Bairro:
-                        <input type="text" name="bairro" id="ID_bairro" minlength="4" maxlength="25" required>
+                        <input type="text" name="bairro" id="ID_bairro" minlength="4" maxlength="25" size="40px" required>
                     </label>
             </fieldset>
             <fieldset>
@@ -36,7 +37,7 @@ Cabeçario da página Call Center.
                         <option value="rosana">Rosana</option>
                     </select>
             </fieldset>
-            <input type="button" value="Salvar" class="btn_salvar_call_center">
+            <input type="button" value="Salvar" class="btn_Salvar">
         </fieldset>
     </form>
     <nav>

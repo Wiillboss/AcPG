@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styleTFD.css">
     <link rel="stylesheet" href="stylePainelCentralMenu.css">
+    <link rel="stylesheet" href="styleFormulario.css">
     <title>Transporte</title>
 </head>
 <header>
@@ -16,9 +17,9 @@ Cabeçário da página TFD
             <legend>Dados do atendimento.</legend>
                 <label>
                     Nome do(a) paciente:
-                    <input type="text" name="nomePa" id="ID_nome_Pa" minlength="7" maxlength="25" required>
+                    <input type="text" name="nomePa" id="ID_nome_Pa" minlength="7" maxlength="25" size="40px" required>
                 </label>
-            <label>Tipo de veiculo.    
+            <label class="label_tipo_veiculo">Tipo de veiculo.    
                 <select name="tipo_de_transporte" id="ID_tipo_de_transporte">
                     <option value="">Informe o tipo de transporte.</option>
                     <option value="van">Van</option>
@@ -27,7 +28,7 @@ Cabeçário da página TFD
                 </select>
             </label>
            
-            <label>Atendente
+            <label class="label_atendente">Atendente
                 <select name="selecao_atendente_tfd" id="ID_selecao_atendente_tfd">
                     <option value="">Informe o(a) atendente.</option>
                     <option value="danilo">Danilo</option>
@@ -38,15 +39,15 @@ Cabeçário da página TFD
                     <option value="willian">Willian</option>
                 </select>
             </label>
-            <input type="button" value="Salvar" class="enviar_atendimento">
+            <input type="button" value="Salvar" class="btn_Salvar">
         </fieldset>
         <fieldset>
             <legend>Dados para confirmação</legend>
                 <label>
                     Nome do(a) paciente:
-                    <input type="text" name="nomePa" id="ID_nome_Pa" minlength="7" maxlength="25" required>
+                    <input type="text" name="nomePa" id="ID_nome_Pa" minlength="7" maxlength="25" size="40px" required>
                 </label>
-                <label>Tipo de veiculo.    
+                <label class="label_tipo_veiculo">Tipo de veiculo.    
                     <select name="tipo_de_transporte" id="ID_tipo_de_transporte">
                         <option value="">Informe o tipo de transporte.</option>
                         <option value="van">Van</option>
@@ -54,7 +55,7 @@ Cabeçário da página TFD
                         <option value="ambulancia">Ambulância</option>
                     </select>
                 </label>
-                <label>Atendente
+                <label class="label_atendente">Atendente
                     <select name="selecao_atendente_tfd" id="ID_selecao_atendente_tfd">
                         <option value="">Informe o(a) atendente.</option>
                         <option value="danilo">Danilo</option>
@@ -65,7 +66,7 @@ Cabeçário da página TFD
                         <option value="willian">Willian</option>
                     </select>
                 </label>
-                <input type="button" value="Salvar" class="enviar_confirmacao">
+                <input type="button" value="Salvar" class="btn_Salvar">
         </fieldset>
     </form>
     <nav>
