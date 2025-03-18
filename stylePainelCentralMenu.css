@@ -47,6 +47,14 @@ nav ul li a:hover{
     color: rgba(226, 230, 235, 0.589);
 }
 
+header{
+    padding-top: 5px;
+    text-align: center;
+    background-color: cornflowerblue;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
 footer{
     padding-top: 5px;
     text-align: center;

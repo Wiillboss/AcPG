@@ -1,5 +1,9 @@
 header{
+    padding-top: 5px;
     text-align: center;
+    background-color: cornflowerblue;
+    height: 30px;
+    margin-bottom: 5px;
 }
 
 footer{
