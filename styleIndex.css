@@ -9,10 +9,9 @@
     text-align: center;
 } */
 
-.login_senha_aparecer_desaparecer{
+#login_apa_desa, #senha_apa_desa, #btn_apa_desa{
     text-align: left;
-    display: none; /* Deixar invisível */
-    
+    display: none /* Deixar invisível */
 }
 
 fieldset{

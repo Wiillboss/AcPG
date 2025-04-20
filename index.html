@@ -22,15 +22,15 @@
             <button onclick="toggleDiv()">
               <div>Colaboradores:</div>
             </button>
-                <label for="" class="login_senha_aparecer_desaparecer">
+                <label for="" id="login_apa_desa">
                     Login:
                     <input type="text" name="login" placeholder="Login." id="login" required>
                 </label>
-                <label for="" class="login_senha_aparecer_desaparecer">
+                <label for="" id="senha_apa_desa">
                     Senha:
                     <input type="password" name="senha_login" placeholder="Senha." id="senha_login" required>
                 </label>
-                <input type="submit" onclick="validarLogin(); return false" class="btnFazerlogin">
+                <input type="submit" onclick="validarLogin(); return false" class="btnFazerlogin" id="btn_apa_desa">
                 <!-- <img src="PG-logo-horizontal.png" alt="logo PG">     -->
         </fieldset>    
     </form>
@@ -103,11 +103,17 @@
         }
 
         function toggleDiv() {
-        const div = document.getElementsByClassName("login_senha_aparecer_desaparecer");
-        if (div.style.display === "none") {
-          div.style.display = "block"; // mostra a div
+        const div1 = document.getElementById("login_apa_desa");
+        const div2 = document.getElementById("senha_apa_desa");
+        const div3 = document.getElementById("btn_apa_desa");
+        if (div1.style.display === "none" && div2.style.display === "none" && div3.style.display === "none") {
+          div1.style.display = "block"; // mostra a div
+          div2.style.display = "block"; // mostra a div
+          div3.style.display = "block"; // mostra a div
         } else {
-          div.style.display = "none";  // esconde a div
+          div1.style.display = "none"; // mostra a div
+          div2.style.display = "none"; // mostra a div
+          div3.style.display = "none"; // mostra a div
         }
       }
     </script>
