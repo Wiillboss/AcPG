@@ -5,11 +5,24 @@
     box-sizing: border-box;
 }
 
+/* A linha abaixo é temporária e serve para ter uma noção de que o formulário não está seguindo a regra. */
 /* header{
     text-align: center;
 } */
 
-.colabo:hover{
+/*
+Abaixo foi feito uma tentativa de deixar o formulário com 100% de VW para tentar deixar tanto o label como o input um ao lado do outro quando visualizado
+
+form{
+    width: 100vw;
+    display: inline-block;
+    }
+ */
+
+ /*Descobri onde estava o problema de não mostrar o input e label um ao lado do outro,
+  o problema estava dentro do IF do JS que estava para mostrar como BLOCK, e não como INLINE   */
+
+.colabo:hover, .btnFazerlogin:hover{
     background-color: cadetblue;
     cursor: pointer;
     color: white;
@@ -54,10 +67,11 @@ input{
     margin-bottom: 10px;
     margin-top: 5px;
     margin-right: 5px;
-    width: 100px;
+    width: 50px;
     height: 24px;
     background-color: rgb(174, 191, 236);
-    padding-bottom: 25px;
+    padding-left: 2px;
+    cursor: pointer;
 }
 
 footer{
