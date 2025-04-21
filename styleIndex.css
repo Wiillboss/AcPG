@@ -9,14 +9,29 @@
     text-align: center;
 } */
 
+.colabo:hover{
+    background-color: cadetblue;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s;
+}
+
+.colabo {
+    padding: 3px;
+}
+
+button{
+    border-radius: 5px;
+    border-color: white;
+}
+
 #login_apa_desa, #senha_apa_desa, #btn_apa_desa{
     text-align: left;
     display: none /* Deixar invisível */
 }
 
 fieldset{
-    padding-left: 5px;
-
+    padding-left: 1px;
     display: block;
 }
 
