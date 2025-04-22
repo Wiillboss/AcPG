@@ -12,14 +12,16 @@
 Cabeçário da página TFD
 </header>
 <body>
+    <p class="paragrafo_inicial">TFD</p>
     <form>
         <fieldset>
             <legend>Dados do atendimento.</legend>
                 <label>
                     Nome do(a) paciente:
-                    <input type="text" name="nomePa" id="ID_nome_Pa" minlength="7" maxlength="25" size="40px" required>
+                    <input type="text" name="nomePa" id="ID_nome_Pa" minlength="7" maxlength="25" size="40px" 
+                        placeholder="Digite o nome do(a) paciente." required>
                 </label>
-            <label class="label_tipo_veiculo">Tipo de veiculo.    
+            <label class="label_tipo_veiculo">Tipo de veiculo:    
                 <select name="tipo_de_transporte" id="ID_tipo_de_transporte">
                     <option value="">Informe o tipo de transporte.</option>
                     <option value="van">Van</option>
@@ -28,7 +30,7 @@ Cabeçário da página TFD
                 </select>
             </label>
            
-            <label class="label_atendente">Atendente
+            <label class="label_atendente">Atendente:
                 <select name="selecao_atendente_tfd" id="ID_selecao_atendente_tfd">
                     <option value="">Informe o(a) atendente.</option>
                     <option value="danilo">Danilo</option>
@@ -42,10 +44,11 @@ Cabeçário da página TFD
             <input type="button" value="Salvar" class="btn_Salvar">
         </fieldset>
         <fieldset>
-            <legend>Dados para confirmação</legend>
+            <legend>Dados para confirmação.</legend>
                 <label>
                     Nome do(a) paciente:
-                    <input type="text" name="nomePa" id="ID_nome_Pa" minlength="7" maxlength="25" size="40px" required>
+                    <input type="text" name="nomePa" id="ID_nome_Pa" minlength="7" maxlength="25" size="40px" 
+                        placeholder="Digite o nome do(a) paciente." required>
                 </label>
                 <label class="label_tipo_veiculo">Tipo de veiculo.    
                     <select name="tipo_de_transporte" id="ID_tipo_de_transporte">
@@ -55,7 +58,7 @@ Cabeçário da página TFD
                         <option value="ambulancia">Ambulância</option>
                     </select>
                 </label>
-                <label class="label_atendente">Atendente
+                <label class="label_atendente">Atendente:
                     <select name="selecao_atendente_tfd" id="ID_selecao_atendente_tfd">
                         <option value="">Informe o(a) atendente.</option>
                         <option value="danilo">Danilo</option>

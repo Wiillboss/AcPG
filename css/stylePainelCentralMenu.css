@@ -7,15 +7,28 @@
     -- "vh - vw" - viewport height - viewport width são baseados em toda área visivel, a qual o usuário pra ver e usar.
     -- "inherit" - herde a força a propriedade do item acima.  
  */
- header{
+header{
     text-align: center;
 }
 
- :root {
+:root {
     --cor-principal: rgba(15, 84, 211, 0.034);
     --cor-secundaria: rgb(57, 104, 104);
 }
 /* Dica importante, procure sempre acessar os elementos em ordem de hierarquia como está sendo feito no nos elementos dentro do NAV*/
+
+.paragrafo_inicial{
+    text-align: center;
+    background-color: var(--cor-secundaria);
+    color: white;
+    height: 30px;
+    /* padding-top: 10px; */
+    width: 50vw;
+    margin-left: 25vw;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+}
 
 nav{
     /* Abaixo Passo 2 - Aumentar o width de 350px maximo para 100VW*/
