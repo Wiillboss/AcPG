@@ -1,22 +1,32 @@
 :root{
    --cor_nomral:rgb(171, 186, 187);
    --cor_passando_mouse: rgb(90, 101, 165);
+   --cor_fundo_formulario: rgba(0, 2, 2, 0.349);
+   --cor_fundo_fieldset_interno: rgba(116, 130, 168, 0.349);
 }
 
 form{
-    background-color: rgb(172, 215, 216);
+    background-color: var(--cor_fundo_formulario);
     padding: 05px;
     border-radius: 10px;
 }
 
+input{
+    width: 250px;
+}
+
 form fieldset{
     border-radius: 10px;
+}
 
+.fieldset_interno{
+    background-color: var(--cor_fundo_fieldset_interno);
 }
 
 form label{
     font-weight: bold;
     text-shadow: 1px 1px 2px rgba(61, 16, 16, 0.274);
+    
 }
 
 form legend{
@@ -25,6 +35,11 @@ form legend{
 
 form button{
     font-weight: 700;
+}
+
+.campo_para_obsercao{
+    width: 92vw;
+    height: 27px;
 }
 
 .btn_Salvar{

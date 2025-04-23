@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylePainelCentralMenu.css">
+    <link rel="stylesheet" href="css/styleFormulario.css">
+    <title>Pesquisa</title>
+</head>
+
+<body>
+    <header>
+        Cabeçário da página Pesquisa
+    </header>
+    <p class="paragrafo_inicial">Pesquisa</p>
+
+    <form action="" method="get" class="formAgendamentos">
+        <fieldset>
+            <fieldset class="fieldset_interno">
+                    <label>
+                        Nome do(a) Paciente:
+                        <input type="text" name="nome_paciente" id="" class="nome_Pa"  placeholder="Digite o nome do(a) paciente." minlength="7" maxlength="35" required>
+                    </label>
+                <label>
+                    Matricula do Paciente:
+                    <input type="number" name="matricula_paciente" id="" class="matricula_Pa" placeholder="Digite a matricula do(a) paciente." min="2" required>
+                </label>
+                <button>Pesquisar.</button>
+            </fieldset>
+            <fieldset class="fieldset_interno">
+                <legend>Resultado da pesquisa:</legend>
+                    <label for="">
+                    Total de agendamentos enviados:                        
+                    </label>
+                    <br>
+                    <label for="">
+                    Confirmado via whatsapp:                        
+                    </label>
+                    <br>
+                    <label for="">
+                    Confirmado via telefone:                        
+                    </label>
+                    <br>
+                    <label for="">
+                    Remarcado via whatsapp:                        
+                    </label>
+                    <br>
+                    <label for="">
+                    Remarcado via telefone:                        
+                    </label>
+                    <br>
+                    <label for="">
+                    Cancelado/excluído do sistema:                        
+                    </label>
+            </fieldset>
+        </fieldset>
+    </form>
+
+    <nav>
+        <ul>
+            <li>    <a href="painelCentral.html">Painel Central</a>   </li>
+            <li>    <a href="registro.html">Registros</a>           </li>
+            <li>    <a href="callCenter.html">Call Center</a>         </li>
+            <li>    <a href="tfd.html">TFD</a>                        </li>
+            <li>    <a href="index.html">Login</a>                    </li>
+        </ul>
+    </nav>   
+     
+    <footer>
+        Site criado por Willian dos Santos Silva.
+    </footer>
+</body>
+
+</html>

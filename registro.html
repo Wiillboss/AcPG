@@ -8,14 +8,15 @@
     <link rel="stylesheet" href="css/styleFormulario.css">
     <title>Registros</title>
 </head>
-<header>
-Cabeçario da página de Registros de Agendamentos.
-</header>
+
 <body>
+    <header>
+        Cabeçario da página de Registros de Agendamentos.
+    </header>
     <p class="paragrafo_inicial">Agendamentos</p>
     <form action="" method="get" class="formAgendamentos">
         <fieldset>
-            <fieldset>
+            <fieldset class="fieldset_interno">
                 <legend>Dados do(a) paciente:</legend>
                     <label>
                         Nome do(a) Paciente:
@@ -26,14 +27,14 @@ Cabeçario da página de Registros de Agendamentos.
                     <input type="number" name="matricula_paciente" id="" class="matricula_Pa" placeholder="Digite a matricula do(a) paciente." min="2" required>
                 </label>
             </fieldset>
-            <fieldset>
+            <fieldset class="fieldset_interno">
                 <legend>Dados do(a) exame/consulta:</legend>
                     <label for="">
                         Exame/consulta:
                         <input type="text" name="consulta_exmae" id="" placeholder="Digite o nome do(a) exame/ consulta." minlength="3" required></label>
                     <button class="btn_novo_ex_cons">Digite novo(a) exame/consulta.</button>
             </fieldset>
-            <fieldset>
+            <fieldset class="fieldset_interno">
                 <legend>Status do registro.</legend>
                     <select name="selecao_status" id="ID_selecao_status" required>
                         <option value="" selected>Escolha uma opção.</option>
@@ -45,6 +46,10 @@ Cabeçario da página de Registros de Agendamentos.
                     </select>
                     <button class="btn_novo_status">Digite um novo Status do registro.</button>
             </fieldset>
+            <fieldset class="fieldset_interno">
+                <legend>Observações.</legend>
+                <textarea name="campo_para_obsercao" class="campo_para_obsercao" id=""></textarea>
+            </fieldset>
             <input type="button" value="Salvar" class="btn_Salvar">
         </fieldset>
     </form>
@@ -52,13 +57,17 @@ Cabeçario da página de Registros de Agendamentos.
     <nav>
         <ul>
             <li>    <a href="painelCentral.html">Painel Central</a>   </li>
-            <li>    <a href="callCenter.html">Call Center</a>  </li>
-            <li>    <a href="tfd.html">TFD</a>                 </li>
-            <li>    <a href="index.html">Login</a>             </li>
+            <li>    <a href="callCenter.html">Call Center</a>         </li>
+            <li>    <a href="tfd.html">TFD</a>                        </li>
+            <li>    <a href="pesquisa.html">Pesquisa</a>                 </li>
+            <li>    <a href="index.html">Login</a>                    </li>
         </ul>
-    </nav>    
+    </nav>   
+
+    <footer>
+        Site criado por Willian dos Santos Silva.
+    </footer>
+
 </body>
-<footer>
-    Site criado por Willian dos Santos Silva.
-</footer>
+
 </html>

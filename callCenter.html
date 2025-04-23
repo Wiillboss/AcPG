@@ -8,14 +8,15 @@
     <link rel="stylesheet" href="css/styleFormulario.css">
     <title>Call Center</title>
 </head>
-<header>
-Cabeçario da página Call Center.
-</header>
+
 <body>
+    <header>
+        Cabeçario da página Call Center.
+    </header>
     <p class="paragrafo_inicial">Call Center.</p>
     <form>
         <fieldset>
-            <fieldset>
+            <fieldset class="fieldset_interno">
                 <legend>Dados do atendimento.</legend>
                     <label>
                         Nome:
@@ -28,7 +29,7 @@ Cabeçario da página Call Center.
                         placeholder="Digite o nome do bairro." required>
                     </label>
             </fieldset>
-            <fieldset>
+            <fieldset class="fieldset_interno">
                 <legend>Atendente.</legend>
                     <select name="selecao_atendente" id="ID_selecao_atendente">
                         <option value="">Informe o(a) atendente.</option>
@@ -45,14 +46,18 @@ Cabeçario da página Call Center.
     </form>
     <nav>
         <ul>
-            <li>    <a href="registro.html">Agendamentos</a>   </li>
+            <li>    <a href="registro.html">Agendamentos</a>         </li>
             <li>    <a href="painelCentral.html">Painel Central</a>  </li>
-            <li>    <a href="tfd.html">TFD</a>                 </li>
-            <li>    <a href="index.html">Login</a>             </li>
+            <li>    <a href="tfd.html">TFD</a>                       </li>
+            <li>    <a href="pesquisa.html">Pesquisa</a>                </li>
+            <li>    <a href="index.html">Login</a>                   </li>
         </ul>
     </nav>
+
+    <footer>
+        Site criado por Willian dos Santos Silva.
+    </footer>
+
 </body>
-<footer>
-    Site criado por Willian dos Santos Silva.
-</footer>
+
 </html>
