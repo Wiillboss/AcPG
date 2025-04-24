@@ -2,13 +2,19 @@
    --cor_nomral:rgb(171, 186, 187);
    --cor_passando_mouse: rgb(90, 101, 165);
    --cor_fundo_formulario: rgba(0, 2, 2, 0.349);
-   --cor_fundo_fieldset_interno: rgba(116, 130, 168, 0.349);
+   --cor_fundo_fieldset_interno: rgba(193, 247, 253, 0.349);
 }
 
 form{
     background-color: var(--cor_fundo_formulario);
     padding: 05px;
     border-radius: 10px;
+}
+
+legend{
+    background-color: rgba(44, 169, 185, 0.288);
+    border-radius: 10px;
+    color: white;
 }
 
 input{
@@ -19,8 +25,13 @@ form fieldset{
     border-radius: 10px;
 }
 
+#fieldset_teste{
+    display: none;
+}
+
 .fieldset_interno{
     background-color: var(--cor_fundo_fieldset_interno);
+    
 }
 
 form label{
@@ -75,6 +86,18 @@ form button{
 
 .btn_novo_status:hover{
     background-color: var(--cor_passando_mouse);
+    color: white;
+}
+
+.btn_pesquisa{
+    background-color: var(--cor_nomral);
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.btn_pesquisa:hover{
+    background-color: var(--cor_passando_mouse);
+    cursor: pointer;
     color: white;
 }
 
