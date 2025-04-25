@@ -85,3 +85,25 @@ footer{
     background-color: var(--cor-de-fundo-cabeçario-rodape);
     height: 30px;
 }
+
+@media (max-width:1080px){
+    nav li{
+        display: inline-block;
+        /* Abaixo Passo 4 e 5 - aumentar o tamanho da largura do menu - centralizar o texto  */
+        width: 209px;
+        text-align: center;
+    }
+    
+    .nome_Pa{
+        width: 250px;
+    }
+}
+
+@media (orientation: landscape){
+    nav li{
+        display: inline-block;
+        /* Abaixo Passo 4 e 5 - aumentar o tamanho da largura do menu - centralizar o texto  */
+        width: 236px;
+        text-align: center;
+    }
+}

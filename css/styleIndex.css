@@ -19,9 +19,9 @@ form{
     }
  */
 
- /*Descobri onde estava o problema de não mostrar o input e label um ao lado do outro,
+ /* Descobri onde estava o problema de não mostrar o input e label um ao lado do outro,
   o problema estava dentro do IF do JS que estava para mostrar como BLOCK, e não como INLINE   */
-
+  
 .colabo:hover, .btnFazerlogin:hover{
     background-color: cadetblue;
     cursor: pointer;
