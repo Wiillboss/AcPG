@@ -99,11 +99,13 @@ footer{
     }
 }
 
-/* @media (orientation: landscape){
+/*
+@media (orientation: landscape){
     nav li{
         display: inline-block;
-        /* Abaixo Passo 4 e 5 - aumentar o tamanho da largura do menu - centralizar o texto  */
+        Abaixo Passo 4 e 5 - aumentar o tamanho da largura do menu - centralizar o texto
         width: 236px;
         text-align: center;
     }
-} */
+} 
+*/
